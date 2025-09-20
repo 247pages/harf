@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Text AI</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/compromise"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Dynamic Text AI</h1>
+
+        <textarea id="inputText" placeholder="Enter text to shrink or generate..."></textarea>
+
+        <div class="buttons">
+            <button onclick="shrinkInput()">Shrink Text</button>
+            <button onclick="generateTextOutput()">Generate Text</button>
+        </div>
+
+        <div class="logs-container">
+            <h2>Process Logs:</h2>
+            <div id="logs"></div>
+        </div>
+
+        <h2>Output:</h2>
+        <div id="output"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
